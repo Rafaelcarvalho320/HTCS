@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagens de varios tamanhos</title>
+  </head>
+  <body>
+    <h1>Imagem Dinâmica</h1>
+    <p>
+      Abrir o site em vários dispositivos diferentes ou simplesmente aumentar e 
+      dimunuir o tamanho da janela do navegador.
+    </p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/1.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/2.png" type="image/png">
+        <img src="imagens/3.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzir audios em HTML</h1>
+    <p>Reproduzindo audios aleatorios em HTML</p>
+    <audio src="midia/happy-mistake.mp3" controls autoplay loop></audio>
+  </body>
+</html>

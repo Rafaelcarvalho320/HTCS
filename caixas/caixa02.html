@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: rgb(180, 176, 176);
+        }
+        header{
+            text-align: center;
+            background-color: aliceblue;
+            padding: 1px;
+        }
+        nav{
+            background-color: rgb(107, 105, 105);
+            text-align: justify;
+            box-shadow: -805px -3px 9px rgba(0, 0, 0, 0.486);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            margin-right: 15px;
+        }
+        nav a:hover{
+            text-decoration: underline;
+            color: rgb(31, 62, 202);
+        }
+        main{
+            background-color: aliceblue;
+            margin-bottom: 40px;
+            margin-top: -13px;
+        }
+        footer{
+            background-color: rgb(27, 27, 27);
+            color: white;
+            text-align: center;
+        }
+        article{
+            background-color: lightgray;
+            margin-top: -20px;
+        }
+        aside{
+            text-decoration: underline;
+        }
+        #nacional{
+            background-image: linear-gradient(to right, green, yellow);
+        }
+        #inter{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-image: linear-gradient(to bottom, lightskyblue, blue);
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Meu Site</h1>
+      <nav>
+        <a href="">Exemplo de site</a>
+        <a href="">Exemplo 2 de site</a>
+        <a href="">Exemplo 3 de site</a>
+      </nav>
+    </header>
+    <main>
+      <section id="inter">
+        <p>Artigo abaixo</p>
+        <article>
+          <h2>Notícias Internacionais</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            nisi aperiam facilis quas, modi illo, laboriosam officia accusantium
+            in consequatur, reprehenderit quaerat iste magnam necessitatibus
+            enim vitae natus corporis! Obcaecati!
+          </p>
+          <aside>Artigo escrito por Ciclano
+          </aside>
+        </article>
+      </section>
+      <section>
+        <article id="nacional">
+          <h2>Notícias sobre o Brasil</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
+            sed laborum dolorem voluptates recusandae neque voluptatum fuga,
+            nulla quam eius dolor, laboriosam ducimus pariatur vero id optio,
+            sint perferendis possimus!
+          </p>
+          <aside>Artigo escrito por Fulano</aside>
+        </article>
+      </section>
+    </main>
+    <footer>
+        Desenvolvido por Beltrano
+    </footer>
+  </body>
+</html>
